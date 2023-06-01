@@ -1,0 +1,36 @@
+html,body{
+    width:100%;
+    height:auto;
+    margin:0px;
+    padding:0px;
+    border:none;
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh;
+    font-family: 'Plus Jakarta Sans';
+
+}
+
+body.background{
+    filter: blur(3px);
+}
+
+a{
+    text-decoration: none;
+}
+/*  No se implementa */
+.titulo{
+    color: blue;
+    font-weight: bold;
+}
+
+/* Todos los botones de la aplicación tendrían este id para el color */
+.confirm{
+    background-color: brown;
+}
+
+/* Los formularios de registro y de login usan esta clase */
+.arepas-form{
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+}

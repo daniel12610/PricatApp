@@ -1,0 +1,384 @@
+{
+  "products": [
+    {
+      "id": 0,
+      "ImageName": "Arepa-Con-Chorizo.jpg",
+      "Name": "Arepa Con Chorizo",
+      "Description": "Deliciosa arepa de maiz tierno acompañada de chorizo santarosano",
+      "Price": 6000
+    },
+    {
+      "id": 1,
+      "ImageName": "Arepa-Rellena-Carne.jpg",
+      "Name": "Arepa con Carne",
+      "Description": "Arepa de Maiz blanco , rellena de carne desmechada, preparada adobada con cebolla y tomate",
+      "Price": 8000
+    },
+    {
+      "id": 3,
+      "ImageName": "Arepa-Rellena-Con-Todo.jpg",
+      "Name": "Arepa rellena con todo",
+      "Description": "Arepa rellena con Carne, Pollo, trozos de chicharon y salsas de la casa",
+      "Price": 13000
+    },
+    {
+      "id": 3,
+      "ImageName": "Arepa-Rellena-de-Queso-Cuajada.jpg",
+      "Name": "Arepa rellena con queso Quajada",
+      "Description": "Arepa de Maiz blanco rellena de queso quajada rallado",
+      "Price": 4000
+    },
+    {
+      "id": 4,
+      "ImageName": "Arepa-Rellena-de-Queso.jpg",
+      "Name": "Arepa rellena con queso crema",
+      "Description": "Arepa de Maiz con queso crema tajado",
+      "Price": 3500
+    },
+    {
+      "id": 5,
+      "ImageName": "Arepa-Rellena-Huevos-Revueltos.jpg",
+      "Name": "Arepa rellana con huevos revueltos",
+      "Description": "Arepa de Maiz tierno rellena de huevos revueltos con cebolla y tomate",
+      "Price": 4000
+    },
+    {
+      "id": 6,
+      "ImageName": "Arepa-Rellena-Jamon-Queso.jpg",
+      "Name": "Arepa rellena con jamon y queso",
+      "Description": "Arepa rellena con queso crema y jamon tajados",
+      "Price": 5000
+    },
+    {
+      "id": 7,
+      "ImageName": "Arepa-Rellena-Pollo.jpg",
+      "Name": "Arepa rellena con pollo",
+      "Description": "Arepa de Maiz tierno , rellena con pollo desmechado adobado con cebola y tomate",
+      "Price": 6500
+    },
+    {
+      "id": 8,
+      "ImageName": "Arepa-Rellena-Salchicha-Ranchera.png",
+      "Name": "Arepa rellena con salchicha ranchera",
+      "Description": "Arepa rellena de salchicha ranchera en pedazos y queso crema tajado, aderezada con salsas de la casa",
+      "Price": 8500
+    },
+    {
+      "id": 9,
+      "ImageName": "Arepa-Sencilla.jpg",
+      "Name": "Arepa Sencilla",
+      "Description": "Deliciosa arepa de maiz tierno aliñada, preparada al carbon",
+      "Price": 2500
+    }
+  ],
+  "customers": [
+    {
+      "name": "Jennifer Osorio",
+      "email": "jennifer@gmail.com",
+      "password": "12345",
+      "confirmPassword": "12345",
+      "address": "Cra 66 #45-32",
+      "phone": "3192348439",
+      "id": 1
+    },
+    {
+      "name": "Daniel Velasco",
+      "email": "daniel@gmail.com",
+      "password": "123",
+      "confirmPassword": "123",
+      "address": "Calle 43 #34-45",
+      "phone": "3209876908",
+      "id": 2
+    },
+    {
+      "name": "Eliana Osorio",
+      "email": "eliana@gmail.com",
+      "password": "12",
+      "confirmPassword": "12",
+      "address": "Calle 43 #34-45",
+      "phone": "3209876908",
+      "id": 3
+    },
+    {
+      "name": "Victor Osorio",
+      "email": "victor@gmail.com",
+      "address": "Cra 56 #45-98",
+      "phone": "3267548933",
+      "password": "12",
+      "confirmPassword": "12",
+      "id": 4
+    },
+    {
+      "name": "Camilo Cabal",
+      "email": "camilocabal@gmail.com",
+      "address": "Calle 67 # 45 -98",
+      "phone": "3201679221",
+      "password": "123",
+      "confirmPassword": "123",
+      "id": 5
+    }
+  ],
+  "orders": [
+    {
+      "name": "Daniel Velasco",
+      "address": "Calle 43 #34-45",
+      "phone": "3209876908",
+      "notes": "",
+      "price": 8500,
+      "id": 1
+    },
+    {
+      "name": "Saul Goodman",
+      "address": "Calle 43 #34-45",
+      "phone": "3209876908",
+      "notes": "Dejar en portería",
+      "price": 135000,
+      "id": 2
+    },
+    {
+      "name": "Jennifer Osorio",
+      "address": "Calle 43 #34-45",
+      "phone": "3209876908",
+      "notes": "",
+      "price": 92500,
+      "id": 3
+    },
+    {
+      "name": "Jennifer Osorio",
+      "address": "Cra 66 #45-32",
+      "phone": "3192348439",
+      "notes": "",
+      "price": 26000,
+      "id": 4
+    },
+    {
+      "name": "Alexandra Osorio",
+      "address": "Cra 66 #45-32",
+      "phone": "3192348439",
+      "notes": "Pago en efectivo :D",
+      "price": 50000,
+      "id": 5
+    },
+    {
+      "name": "Alexandra Osorio",
+      "address": "Cra 66 #45-32",
+      "phone": "3192348439",
+      "notes": "Pago en efectivo :D",
+      "price": 50000,
+      "id": 6
+    },
+    {
+      "name": "Alexandra Osorio",
+      "address": "Cra 66 #45-32",
+      "phone": "3192348439",
+      "notes": "Pago en efectivo :D",
+      "price": 50000,
+      "id": 7
+    },
+    {
+      "name": "Jennifer Osorio",
+      "address": "Cra 66 #45-32",
+      "phone": "3192348439",
+      "notes": "",
+      "price": 26000,
+      "id": 8
+    },
+    {
+      "name": "Jennifer Osorio",
+      "address": "Cra 66 #45-32",
+      "phone": "3246142221",
+      "notes": "",
+      "price": 28000,
+      "id": 9
+    },
+    {
+      "name": "Jennifer Osorio",
+      "address": "Cra 66 #45-32",
+      "phone": "3246142221",
+      "notes": "",
+      "price": 28000,
+      "id": 10
+    },
+    {
+      "name": "Camilo",
+      "address": "Cra 66 #45-32",
+      "phone": "3192348439",
+      "notes": "",
+      "price": 26000,
+      "id": 11
+    },
+    {
+      "name": "jennifercita",
+      "address": "123",
+      "phone": "1212",
+      "notes": "121212",
+      "price": 54000,
+      "id": 12
+    },
+    {
+      "name": "jennifer",
+      "address": "12",
+      "phone": "12",
+      "notes": "12",
+      "price": 14000,
+      "id": 13
+    },
+    {
+      "name": "Camilo Cabal",
+      "address": "Calle 67 # 45 -98",
+      "phone": "3201679221",
+      "notes": "",
+      "price": 36000,
+      "id": 14
+    }
+  ],
+  "ordersDetails": [
+    {
+      "orderId": 1,
+      "productId": 9,
+      "quantity": 1,
+      "priceOrder": 2500,
+      "id": 1
+    },
+    {
+      "orderId": 1,
+      "productId": 0,
+      "quantity": 1,
+      "priceOrder": 6000,
+      "id": 2
+    },
+    {
+      "orderId": 2,
+      "productId": 0,
+      "quantity": 5,
+      "priceOrder": 30000,
+      "id": 3
+    },
+    {
+      "orderId": 2,
+      "productId": 1,
+      "quantity": 5,
+      "priceOrder": 40000,
+      "id": 4
+    },
+    {
+      "orderId": 2,
+      "productId": 3,
+      "quantity": 5,
+      "priceOrder": 65000,
+      "id": 5
+    },
+    {
+      "orderId": 3,
+      "productId": 1,
+      "quantity": 10,
+      "priceOrder": 80000,
+      "id": 6
+    },
+    {
+      "orderId": 3,
+      "productId": 9,
+      "quantity": 5,
+      "priceOrder": 12500,
+      "id": 7
+    },
+    {
+      "orderId": 4,
+      "productId": 3,
+      "quantity": 2,
+      "priceOrder": 26000,
+      "id": 8
+    },
+    {
+      "orderId": 7,
+      "productId": 3,
+      "quantity": 2,
+      "priceOrder": 26000,
+      "id": 9
+    },
+    {
+      "orderId": 7,
+      "productId": 1,
+      "quantity": 3,
+      "priceOrder": 24000,
+      "id": 10
+    },
+    {
+      "orderId": 8,
+      "productId": 3,
+      "quantity": 2,
+      "priceOrder": 26000,
+      "id": 11
+    },
+    {
+      "orderId": 10,
+      "productId": 0,
+      "quantity": 2,
+      "priceOrder": 12000,
+      "id": 12
+    },
+    {
+      "orderId": 10,
+      "productId": 1,
+      "quantity": 2,
+      "priceOrder": 16000,
+      "id": 13
+    },
+    {
+      "orderId": 11,
+      "productId": 3,
+      "quantity": 2,
+      "priceOrder": 26000,
+      "id": 14
+    },
+    {
+      "orderId": 12,
+      "productId": 0,
+      "quantity": 2,
+      "priceOrder": 12000,
+      "id": 15
+    },
+    {
+      "orderId": 12,
+      "productId": 1,
+      "quantity": 2,
+      "priceOrder": 16000,
+      "id": 16
+    },
+    {
+      "orderId": 12,
+      "productId": 3,
+      "quantity": 2,
+      "priceOrder": 26000,
+      "id": 17
+    },
+    {
+      "orderId": 13,
+      "productId": 1,
+      "quantity": 1,
+      "priceOrder": 8000,
+      "id": 18
+    },
+    {
+      "orderId": 13,
+      "productId": 0,
+      "quantity": 1,
+      "priceOrder": 6000,
+      "id": 19
+    },
+    {
+      "orderId": 14,
+      "productId": 0,
+      "quantity": 2,
+      "priceOrder": 12000,
+      "id": 20
+    },
+    {
+      "orderId": 14,
+      "productId": 1,
+      "quantity": 3,
+      "priceOrder": 24000,
+      "id": 21
+    }
+  ]
+}

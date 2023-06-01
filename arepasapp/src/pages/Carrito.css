@@ -1,0 +1,21 @@
+.column {
+  float: left;
+  width: 50%;
+  height: auto;
+  background-color: #F0E9E0;
+  display: grid;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 12rem;
+  padding: 5vh;
+  margin-bottom: 5vh;
+  position: relative;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.product-image-cart {
+  border-radius: 40px;
+}
