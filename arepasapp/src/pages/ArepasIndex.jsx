@@ -10,6 +10,7 @@ import { HiChevronDoubleRight } from "react-icons/hi";
 import { HiChevronLeft } from "react-icons/hi";
 import { HiChevronRight } from "react-icons/hi";
 
+
 export function ArepasList() {
   const [data, setData] = useState([]);
   const [totalData, setTotalData] = useState([]);

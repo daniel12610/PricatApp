@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
 import Button from 'react-bootstrap/Button';
 import { NavHeader } from '../components/NavHeader';
 import { ArepasList } from './ArepasIndex';
@@ -33,7 +31,6 @@ export const Index = () => {
       <br />
       <Link to="../Pedidos">
         <Button className="rounded-circle bottom-0 end-0 m-3">
-          <FontAwesomeIcon icon={faCartShopping} />
           <span className="cart-quantity">{cartQuantity}</span>
         </Button>
       </Link>
